@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CADemo.Application\CADemo.Application.csproj" />
+    <ProjectReference Include="..\CADemo.Domain\CADemo.Domain.csproj" />
+    <ProjectReference Include="..\CADemo.Infrastructure\CADemo.Infrastructure.csproj" />
+    <ProjectReference Include="..\CADemo.Persistence\CADemo.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

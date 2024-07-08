@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CADemo.Application", "CADemo.Application\CADemo.Application.csproj", "{3C02C3B5-8382-4393-83B3-6EACD7261371}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CADemo.Domain", "CADemo.Domain\CADemo.Domain.csproj", "{7139867A-5CC1-473D-9047-45B1BA2647C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CADemo.Infrastructure", "CADemo.Infrastructure\CADemo.Infrastructure.csproj", "{EF5681E4-0BE0-4090-87A3-946EB403398A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CADemo.Persistence", "CADemo.Persistence\CADemo.Persistence.csproj", "{058597EC-75FD-4BBA-BCB0-4AB7B0089755}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CADemo.Shared", "CADemo.Shared\CADemo.Shared.csproj", "{0E67E7B8-5A6C-4112-9795-AD6228322941}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CADemo.WebAPI", "CADemo.WebAPI\CADemo.WebAPI.csproj", "{BECE84F9-ABE2-4868-84F4-7268DB959D8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CADemoTest", "CADemoTest\CADemoTest.csproj", "{A13FEBE8-8DF6-48FF-9233-9B42ABE65B81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C02C3B5-8382-4393-83B3-6EACD7261371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C02C3B5-8382-4393-83B3-6EACD7261371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C02C3B5-8382-4393-83B3-6EACD7261371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C02C3B5-8382-4393-83B3-6EACD7261371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7139867A-5CC1-473D-9047-45B1BA2647C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7139867A-5CC1-473D-9047-45B1BA2647C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7139867A-5CC1-473D-9047-45B1BA2647C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7139867A-5CC1-473D-9047-45B1BA2647C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5681E4-0BE0-4090-87A3-946EB403398A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5681E4-0BE0-4090-87A3-946EB403398A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5681E4-0BE0-4090-87A3-946EB403398A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5681E4-0BE0-4090-87A3-946EB403398A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{058597EC-75FD-4BBA-BCB0-4AB7B0089755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{058597EC-75FD-4BBA-BCB0-4AB7B0089755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{058597EC-75FD-4BBA-BCB0-4AB7B0089755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{058597EC-75FD-4BBA-BCB0-4AB7B0089755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E67E7B8-5A6C-4112-9795-AD6228322941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E67E7B8-5A6C-4112-9795-AD6228322941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E67E7B8-5A6C-4112-9795-AD6228322941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E67E7B8-5A6C-4112-9795-AD6228322941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BECE84F9-ABE2-4868-84F4-7268DB959D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BECE84F9-ABE2-4868-84F4-7268DB959D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BECE84F9-ABE2-4868-84F4-7268DB959D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BECE84F9-ABE2-4868-84F4-7268DB959D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13FEBE8-8DF6-48FF-9233-9B42ABE65B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13FEBE8-8DF6-48FF-9233-9B42ABE65B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13FEBE8-8DF6-48FF-9233-9B42ABE65B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13FEBE8-8DF6-48FF-9233-9B42ABE65B81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {373DF5CE-13AD-49BF-89B9-62BF87CF8FE9}
+	EndGlobalSection
+EndGlobal

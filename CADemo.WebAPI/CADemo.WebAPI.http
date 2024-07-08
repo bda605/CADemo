@@ -1,0 +1,6 @@
+@CADemo.WebAPI_HostAddress = http://localhost:5088
+
+GET {{CADemo.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
